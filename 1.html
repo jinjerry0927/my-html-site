@@ -12,7 +12,9 @@
 </script>
         <title>Valorant Info</title>
         <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css">
+        <script src="colors.js"></script>
     </head>
     
     <body>
@@ -23,7 +25,6 @@
                 <!--<li><a href="2.html" style="color:red;text-decoration: underline;">리그오브레전드</a></li>-->
                 <li><a href="2.html">리그오브레전드</a></li>
                 <li><a href="3.html">로스트아크</a></li>
-    
             </ol>
 
             <!--<ol>
@@ -31,8 +32,12 @@
             <li><a href="2.html"><font color="blue">리그오브레전드</font></a></li>
             <li><a href="3.html"><font color="pink">로스트아크</font></a></li>
             </ol> -->
+            
             <div id="article">
                 <h2><a href="https://playvalorant.com/ko-kr/" target="_blank" title="발로란트 공식사이트">발로란트</a></h2>
+                <input type="button" value="night" onclick="
+                day_night_handler(this)
+                ">
                 <p><u>라이엇 게임즈</u>에서 개발한 1인칭 슈팅 게임. 국내에선 게임 명칭의 앞 두 글자를 따 발로, 영어권에서는 <strong>VLRT 또는 VAL</strong>이라는 약칭으로도 불린다. 
                     <u>라이엇 게임즈</u>가 서비스하고 있는 게임 중 LoL 유니버스에 포함되지 않는 유일한 게임이기도 하다.<br>
                 <img src="valorant.jpg" width="50%">
